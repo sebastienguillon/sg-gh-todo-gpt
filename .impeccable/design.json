@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T21:37:40.674612+00:00",
+  "title": "Design System: Tasks",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.0570 235.36)",
+          "oklch(26.43% 0.0570 235.36)",
+          "oklch(37.86% 0.0570 235.36)",
+          "oklch(49.29% 0.0570 235.36)",
+          "oklch(60.71% 0.0570 235.36)",
+          "oklch(72.14% 0.0570 235.36)",
+          "oklch(83.57% 0.0570 235.36)",
+          "oklch(95.00% 0.0570 235.36)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Action Teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0903 186.93)",
+          "oklch(26.43% 0.0903 186.93)",
+          "oklch(37.86% 0.0903 186.93)",
+          "oklch(49.29% 0.0903 186.93)",
+          "oklch(60.71% 0.0903 186.93)",
+          "oklch(72.14% 0.0903 186.93)",
+          "oklch(83.57% 0.0903 186.93)",
+          "oklch(95.00% 0.0903 186.93)"
+        ]
+      },
+      "teal-hover": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0804 186.84)",
+          "oklch(26.43% 0.0804 186.84)",
+          "oklch(37.86% 0.0804 186.84)",
+          "oklch(49.29% 0.0804 186.84)",
+          "oklch(60.71% 0.0804 186.84)",
+          "oklch(72.14% 0.0804 186.84)",
+          "oklch(83.57% 0.0804 186.84)",
+          "oklch(95.00% 0.0804 186.84)"
+        ]
+      },
+      "teal-disabled": {
+        "role": "primary",
+        "displayName": "Muted Teal",
+        "tonalRamp": [
+          "oklch(15.00% 0.0588 188.44)",
+          "oklch(26.43% 0.0588 188.44)",
+          "oklch(37.86% 0.0588 188.44)",
+          "oklch(49.29% 0.0588 188.44)",
+          "oklch(60.71% 0.0588 188.44)",
+          "oklch(72.14% 0.0588 188.44)",
+          "oklch(83.57% 0.0588 188.44)",
+          "oklch(95.00% 0.0588 188.44)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.0042 236.50)",
+          "oklch(26.43% 0.0042 236.50)",
+          "oklch(37.86% 0.0042 236.50)",
+          "oklch(49.29% 0.0042 236.50)",
+          "oklch(60.71% 0.0042 236.50)",
+          "oklch(72.14% 0.0042 236.50)",
+          "oklch(83.57% 0.0042 236.50)",
+          "oklch(95.00% 0.0042 236.50)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.00% 0.0000 0.00)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0360 230.96)",
+          "oklch(26.43% 0.0360 230.96)",
+          "oklch(37.86% 0.0360 230.96)",
+          "oklch(49.29% 0.0360 230.96)",
+          "oklch(60.71% 0.0360 230.96)",
+          "oklch(72.14% 0.0360 230.96)",
+          "oklch(83.57% 0.0360 230.96)",
+          "oklch(95.00% 0.0360 230.96)"
+        ]
+      },
+      "helper": {
+        "role": "neutral",
+        "displayName": "Helper Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0336 232.93)",
+          "oklch(26.43% 0.0336 232.93)",
+          "oklch(37.86% 0.0336 232.93)",
+          "oklch(49.29% 0.0336 232.93)",
+          "oklch(60.71% 0.0336 232.93)",
+          "oklch(72.14% 0.0336 232.93)",
+          "oklch(83.57% 0.0336 232.93)",
+          "oklch(95.00% 0.0336 232.93)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Panel Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0136 233.76)",
+          "oklch(26.43% 0.0136 233.76)",
+          "oklch(37.86% 0.0136 233.76)",
+          "oklch(49.29% 0.0136 233.76)",
+          "oklch(60.71% 0.0136 233.76)",
+          "oklch(72.14% 0.0136 233.76)",
+          "oklch(83.57% 0.0136 233.76)",
+          "oklch(95.00% 0.0136 233.76)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15.00% 0.0163 227.00)",
+          "oklch(26.43% 0.0163 227.00)",
+          "oklch(37.86% 0.0163 227.00)",
+          "oklch(49.29% 0.0163 227.00)",
+          "oklch(60.71% 0.0163 227.00)",
+          "oklch(72.14% 0.0163 227.00)",
+          "oklch(83.57% 0.0163 227.00)",
+          "oklch(95.00% 0.0163 227.00)"
+        ]
+      },
+      "row-divider": {
+        "role": "neutral",
+        "displayName": "Row Divider",
+        "tonalRamp": [
+          "oklch(15.00% 0.0093 232.37)",
+          "oklch(26.43% 0.0093 232.37)",
+          "oklch(37.86% 0.0093 232.37)",
+          "oklch(49.29% 0.0093 232.37)",
+          "oklch(60.71% 0.0093 232.37)",
+          "oklch(72.14% 0.0093 232.37)",
+          "oklch(83.57% 0.0093 232.37)",
+          "oklch(95.00% 0.0093 232.37)"
+        ]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Selected Wash",
+        "tonalRamp": [
+          "oklch(15.00% 0.0143 180.70)",
+          "oklch(26.43% 0.0143 180.70)",
+          "oklch(37.86% 0.0143 180.70)",
+          "oklch(49.29% 0.0143 180.70)",
+          "oklch(60.71% 0.0143 180.70)",
+          "oklch(72.14% 0.0143 180.70)",
+          "oklch(83.57% 0.0143 180.70)",
+          "oklch(95.00% 0.0143 180.70)"
+        ]
+      },
+      "selected-ink": {
+        "role": "primary",
+        "displayName": "Selected Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.0776 184.10)",
+          "oklch(26.43% 0.0776 184.10)",
+          "oklch(37.86% 0.0776 184.10)",
+          "oklch(49.29% 0.0776 184.10)",
+          "oklch(60.71% 0.0776 184.10)",
+          "oklch(72.14% 0.0776 184.10)",
+          "oklch(83.57% 0.0776 184.10)",
+          "oklch(95.00% 0.0776 184.10)"
+        ]
+      },
+      "rail-active": {
+        "role": "neutral",
+        "displayName": "Active Rail Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.0691 228.04)",
+          "oklch(26.43% 0.0691 228.04)",
+          "oklch(37.86% 0.0691 228.04)",
+          "oklch(49.29% 0.0691 228.04)",
+          "oklch(60.71% 0.0691 228.04)",
+          "oklch(72.14% 0.0691 228.04)",
+          "oklch(83.57% 0.0691 228.04)",
+          "oklch(95.00% 0.0691 228.04)"
+        ]
+      },
+      "rail-hover": {
+        "role": "neutral",
+        "displayName": "Hover Rail Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.0586 232.60)",
+          "oklch(26.43% 0.0586 232.60)",
+          "oklch(37.86% 0.0586 232.60)",
+          "oklch(49.29% 0.0586 232.60)",
+          "oklch(60.71% 0.0586 232.60)",
+          "oklch(72.14% 0.0586 232.60)",
+          "oklch(83.57% 0.0586 232.60)",
+          "oklch(95.00% 0.0586 232.60)"
+        ]
+      },
+      "rail-text": {
+        "role": "neutral",
+        "displayName": "Rail Text",
+        "tonalRamp": [
+          "oklch(15.00% 0.0118 231.66)",
+          "oklch(26.43% 0.0118 231.66)",
+          "oklch(37.86% 0.0118 231.66)",
+          "oklch(49.29% 0.0118 231.66)",
+          "oklch(60.71% 0.0118 231.66)",
+          "oklch(72.14% 0.0118 231.66)",
+          "oklch(83.57% 0.0118 231.66)",
+          "oklch(95.00% 0.0118 231.66)"
+        ]
+      },
+      "rail-count": {
+        "role": "neutral",
+        "displayName": "Rail Count",
+        "tonalRamp": [
+          "oklch(15.00% 0.0266 224.27)",
+          "oklch(26.43% 0.0266 224.27)",
+          "oklch(37.86% 0.0266 224.27)",
+          "oklch(49.29% 0.0266 224.27)",
+          "oklch(60.71% 0.0266 224.27)",
+          "oklch(72.14% 0.0266 224.27)",
+          "oklch(83.57% 0.0266 224.27)",
+          "oklch(95.00% 0.0266 224.27)"
+        ]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Error Rust",
+        "tonalRamp": [
+          "oklch(15.00% 0.1226 34.21)",
+          "oklch(26.43% 0.1226 34.21)",
+          "oklch(37.86% 0.1226 34.21)",
+          "oklch(49.29% 0.1226 34.21)",
+          "oklch(60.71% 0.1226 34.21)",
+          "oklch(72.14% 0.1226 34.21)",
+          "oklch(83.57% 0.1226 34.21)",
+          "oklch(95.00% 0.1226 34.21)"
+        ]
+      },
+      "urgent": {
+        "role": "neutral",
+        "displayName": "Urgency Rust",
+        "tonalRamp": [
+          "oklch(15.00% 0.1207 35.46)",
+          "oklch(26.43% 0.1207 35.46)",
+          "oklch(37.86% 0.1207 35.46)",
+          "oklch(49.29% 0.1207 35.46)",
+          "oklch(60.71% 0.1207 35.46)",
+          "oklch(72.14% 0.1207 35.46)",
+          "oklch(83.57% 0.1207 35.46)",
+          "oklch(95.00% 0.1207 35.46)"
+        ]
+      },
+      "warning-ground": {
+        "role": "neutral",
+        "displayName": "Warning Wash",
+        "tonalRamp": [
+          "oklch(15.00% 0.0188 46.81)",
+          "oklch(26.43% 0.0188 46.81)",
+          "oklch(37.86% 0.0188 46.81)",
+          "oklch(49.29% 0.0188 46.81)",
+          "oklch(60.71% 0.0188 46.81)",
+          "oklch(72.14% 0.0188 46.81)",
+          "oklch(83.57% 0.0188 46.81)",
+          "oklch(95.00% 0.0188 46.81)"
+        ]
+      },
+      "warning-ink": {
+        "role": "neutral",
+        "displayName": "Warning Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.1038 37.08)",
+          "oklch(26.43% 0.1038 37.08)",
+          "oklch(37.86% 0.1038 37.08)",
+          "oklch(49.29% 0.1038 37.08)",
+          "oklch(60.71% 0.1038 37.08)",
+          "oklch(72.14% 0.1038 37.08)",
+          "oklch(83.57% 0.1038 37.08)",
+          "oklch(95.00% 0.1038 37.08)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "List heading."
+      },
+      "editor-title": {
+        "displayName": "Editor Title",
+        "purpose": "Editable task detail title."
+      },
+      "task-title": {
+        "displayName": "Task Title",
+        "purpose": "The leading text of each task row."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Baseline interface text."
+      },
+      "field": {
+        "displayName": "Field",
+        "purpose": "Property inputs and selections."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field and metadata labels."
+      },
+      "helper": {
+        "displayName": "Helper",
+        "purpose": "Save feedback and short explanatory copy."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sync-disclosure",
+        "value": "0 10px 38px -8px #173e5338",
+        "purpose": "Structural lift for the synchronization popover."
+      },
+      {
+        "name": "undo-feedback",
+        "value": "0 7px 25px -5px #173e5340",
+        "purpose": "Transient lift for Undo feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background-color .14s, color .14s, border-color .14s",
+        "purpose": "Default button state transitions."
+      },
+      {
+        "name": "disclosure-chevron",
+        "value": "transform .18s",
+        "purpose": "The sync disclosure rotation."
+      },
+      {
+        "name": "undo-entry",
+        "value": "toast-in .22s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Undo enters from opacity .6 and translate 0 10px to opacity 1 and translate 0 0."
+      },
+      {
+        "name": "busy-spin",
+        "value": "spin 1.3s linear infinite",
+        "purpose": "A 360-degree rotation for active work."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration:.001ms!important; animation-iteration-count:1!important; transition-duration:.001ms!important; scroll-behavior:auto!important",
+        "purpose": "Respect prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width: 1550px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width: 1200px"
+      },
+      {
+        "name": "middle-desktop",
+        "value": "min-width: 761px and max-width: 1000px"
+      },
+      {
+        "name": "full-width-details",
+        "value": "max-width: 760px"
+      },
+      {
+        "name": "small-mobile",
+        "value": "max-width: 390px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Teal primary action for capture and repository configuration.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Add task</button>",
+      "css": ".ds-primary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:15px;line-height:1.4;background:var(--teal,#148078);border:1px solid var(--teal,#148078);color:#fff;border-radius:7px;padding:10px 18px;font-weight:600;white-space:nowrap;cursor:pointer;transition:background-color .14s,color .14s,border-color .14s}.ds-primary:hover:not(:disabled){background:#106d66;border-color:#106d66}.ds-primary:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-primary:disabled{background:#5b928d;border-color:#5b928d;opacity:.85;cursor:default}@media(prefers-reduced-motion:reduce){.ds-primary{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined action for secondary choices.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Try example tasks</button>",
+      "css": ".ds-secondary{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:15px;color:var(--ink,#173e53);line-height:1.4;background:#fff;border:1px solid #bdcdd5;border-radius:6px;padding:8px 13px;cursor:pointer;transition:background-color .14s,color .14s,border-color .14s}.ds-secondary:hover{background:#edf5f4;border-color:#94b8b4}.ds-secondary:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-secondary:disabled{opacity:.55;cursor:default}@media(prefers-reduced-motion:reduce){.ds-secondary{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Text Action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Underlined low-emphasis action for retry or choosing a version.",
+      "html": "<button class=\"ds-text\" type=\"button\">Use this version</button>",
+      "css": ".ds-text{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:13px;line-height:1.5;background:transparent;border:0;color:#126b64;text-decoration:underline;text-underline-offset:3px;padding:0;cursor:pointer;transition:color .14s}.ds-text:hover{color:#0b504b;text-decoration-thickness:2px}.ds-text:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-text:disabled{opacity:.55;cursor:default}@media(prefers-reduced-motion:reduce){.ds-text{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "Compact vector control for dismissing or editing.",
+      "html": "<button class=\"ds-icon\" type=\"button\" aria-label=\"Close task details\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button>",
+      "css": ".ds-icon{display:inline-flex;align-items:center;justify-content:center;width:30px;min-width:30px;height:30px;background:transparent;border:0;border-radius:5px;color:var(--muted,#526b78);padding:5px;cursor:pointer;transition:background-color .14s,color .14s}.ds-icon:hover{background:#e7eff2;color:var(--ink,#173e53)}.ds-icon:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-icon{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Property Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Compact labeled control with adjacent helper copy.",
+      "html": "<label class=\"ds-property\"><span>Tags</span><span><input aria-label=\"Tags\" value=\"design, writing\"/><small>Separate with commas</small></span></label>",
+      "css": ".ds-property{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:grid;grid-template-columns:63px minmax(0,1fr);align-items:start;gap:10px;color:var(--muted,#526b78);font-size:13px;max-width:320px}.ds-property>span:first-child{padding-top:10px}.ds-property input{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;width:100%;min-height:39px;min-width:0;color:var(--ink,#173e53);background:#fff;border:1px solid #cbd8de;border-radius:5px;padding:8px 9px;font-size:14px;line-height:1.5;caret-color:var(--teal,#148078)}.ds-property input:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-property small{display:block;color:#627986;font-size:11px;line-height:1.5;margin-top:4px}@media(prefers-reduced-motion:reduce){.ds-property{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Quick Add",
+      "kind": "input",
+      "refersTo": "input-quick-add",
+      "description": "Title-only capture field with its quiet plus icon.",
+      "html": "<div class=\"ds-quick\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg><input aria-label=\"Add task\" placeholder=\"Add task\"/></div>",
+      "css": ".ds-quick{position:relative;max-width:520px;color:#607986}.ds-quick svg{position:absolute;top:50%;transform:translateY(-50%);left:14px;pointer-events:none}.ds-quick input{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;width:100%;min-width:0;font-size:15px;line-height:1.5;color:var(--ink,#173e53);background:#fff;border:1px solid #bccdd5;border-radius:7px;padding:13px 15px 13px 42px;caret-color:var(--teal,#148078)}.ds-quick input::placeholder{color:#627986;opacity:1}.ds-quick input:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;outline-offset:2px}@media(prefers-reduced-motion:reduce){.ds-quick{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "List Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-item",
+      "description": "Ink-blue list navigation with aligned task counts.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Lists\"><button class=\"ds-nav-item\" type=\"button\">Personal<span>0</span></button><button class=\"ds-nav-item ds-nav-active\" type=\"button\" aria-current=\"page\">GitHub to-do<span>5</span></button></nav>",
+      "css": ".ds-navigation{background:var(--ink,#173e53);padding:20px;display:grid;gap:6px;width:240px}.ds-nav-item{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:flex;justify-content:space-between;align-items:baseline;gap:12px;width:100%;min-width:0;text-align:left;font-size:16px;line-height:1.5;color:#e4edf2;background:transparent;border:0;border-radius:7px;padding:12px 16px;overflow-wrap:anywhere;cursor:pointer;transition:background-color .14s}.ds-nav-item span{font-size:14px;color:#c6dce5;font-variant-numeric:tabular-nums}.ds-nav-item:hover{background:#234d62}.ds-nav-item.ds-nav-active{background:#296178;color:#fff;font-weight:650}.ds-nav-item:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-nav-active,.ds-nav-item,.ds-navigation{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Task Row",
+      "kind": "custom",
+      "refersTo": "task-row",
+      "description": "The selected row and its aligned due/priority margin.",
+      "html": "<div class=\"ds-row\"><label class=\"ds-check\"><input type=\"checkbox\" aria-label=\"Complete task\"/><span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg></span></label><div><button class=\"ds-title\" type=\"button\">Review sync conflict behavior</button><span class=\"ds-tags\">sync</span></div><span class=\"ds-due\">Today</span><span class=\"ds-priority\">High</span></div>",
+      "css": ".ds-row{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:grid;grid-template-columns:24px minmax(0,1fr) 87px 86px;column-gap:12px;align-items:start;min-height:86px;padding:17px;max-width:760px;background:#e6f3f0;outline:1px solid var(--teal,#148078);outline-offset:-1px;color:var(--ink,#173e53)}.ds-check{position:relative;width:20px;height:24px;margin-top:3px;display:inline-grid;place-items:center;cursor:pointer}.ds-check input{position:absolute;inset:0;margin:0;width:20px;height:24px;opacity:0;cursor:pointer}.ds-check>span{display:grid;place-items:center;width:18px;height:18px;border:1.5px solid #9cb2bd;border-radius:4px;background:#fff;pointer-events:none}.ds-check svg{opacity:0;color:#fff}.ds-check input:checked+span{background:var(--teal,#148078);border-color:var(--teal,#148078)}.ds-check input:checked+span svg{opacity:1}.ds-check input:focus-visible+span{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-title{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:block;font-size:16px;line-height:1.45;font-weight:560;color:#12685f;background:transparent;border:0;border-radius:2px;padding:0;text-align:left;overflow-wrap:anywhere;cursor:pointer}.ds-title:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}.ds-title:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-tags{display:block;margin-top:8px;font-size:13px;line-height:1.4;color:#356d69;overflow-wrap:anywhere}.ds-due,.ds-priority{padding-top:2px;font-size:13px;line-height:1.6;font-weight:650;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}.ds-priority{color:#9a442e}@media(prefers-reduced-motion:reduce){.ds-check,.ds-due,.ds-priority,.ds-row,.ds-tags,.ds-title{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Conflict Version",
+      "kind": "card",
+      "refersTo": "conflict-version",
+      "description": "A flat comparison surface for preserved conflicting content.",
+      "html": "<div class=\"ds-version\"><span class=\"ds-version-label\">Version 1<time>15 Oct, 14:30</time></span><p>Review the revised notes.</p><button class=\"ds-version-action\" type=\"button\">Use this version</button></div>",
+      "css": ".ds-version{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;background:var(--ground,#f3f6f8);color:var(--ink,#173e53);border-radius:5px;padding:12px;max-width:360px}.ds-version-label{display:flex;justify-content:space-between;gap:10px;color:var(--muted,#526b78);font-size:11px;font-weight:600;line-height:1.5}.ds-version-label time{font-weight:400;font-variant-numeric:tabular-nums}.ds-version p{white-space:pre-wrap;overflow-wrap:anywhere;margin:9px 0 12px;font-size:13px;line-height:1.5;max-height:200px;overflow:auto}.ds-version-action{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;font-size:12px;line-height:1.5;background:transparent;border:0;color:#126b64;text-decoration:underline;text-underline-offset:3px;padding:0;cursor:pointer}.ds-version-action:hover{color:#0b504b;text-decoration-thickness:2px}.ds-version-action:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-version,.ds-version-action,.ds-version-label{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    },
+    {
+      "name": "Sync Disclosure",
+      "kind": "button",
+      "refersTo": "sync-control",
+      "description": "Compact persistence status anchored in the ink-blue dock.",
+      "html": "<div class=\"ds-sync-dock\"><button class=\"ds-sync\" type=\"button\" aria-expanded=\"false\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 3v12M18 9a6 6 0 0 1-6 6H6\"/><circle cx=\"18\" cy=\"6\" r=\"3\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/></svg><span>Saved on this machine</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></div>",
+      "css": ".ds-sync-dock{background:var(--ink,#173e53);padding:13px 20px 17px;width:240px}.ds-sync{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;display:flex;gap:8px;align-items:center;justify-content:flex-start;width:100%;min-height:39px;background:#234d62;border:1px solid #43677a;border-radius:6px;padding:10px;color:#e3f1f2;font-size:11px;line-height:1.4;text-align:left;cursor:pointer;transition:background-color .14s}.ds-sync>span{flex:1}.ds-sync>svg{flex:none}.ds-sync>svg:first-child{color:#a4d9cd}.ds-sync:hover{background:#2a596f}.ds-sync:focus-visible{outline:3px solid var(--teal,#148078);outline-offset:3px;}.ds-sync>svg:last-child{transition:transform .18s}.ds-sync[aria-expanded=true]>svg:last-child{transform:rotate(180deg)}@media(prefers-reduced-motion:reduce){.ds-sync,.ds-sync-dock{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Margin notes",
+    "overview": "Margin notes gives everyday task work the calm order of a technical-book margin grid. Ink-blue navigation anchors a cool working ground, while white task rows and an adjacent white editor keep the content readable and directly editable. The repeated metadata margin is the signature; the interface does not simulate paper or book ornament.\n\nThe density is compact and practical. One system UI sans family, restrained curves, light rules, and small helper copy support quick capture and sustained editing. “Tasks” is the current interface label; this document does not establish a final product name. The system uses vector interface icons and requires no raster imagery.",
+    "keyCharacteristics": [
+      "Ink-blue navigation and cool neutral working surfaces.",
+      "A teal action and selection language.",
+      "Aligned task metadata with wrapping titles and tags.",
+      "Compact system typography with explicit local-save and sync feedback.",
+      "Responsive list-to-details navigation with a persistent sync disclosure."
+    ],
+    "rules": [
+      {
+        "name": "The Teal State Rule",
+        "body": "Use teal to identify primary actions, completion, selection edges, and keyboard focus. Use warm warning colors only for an actual warning, error, overdue date, or high-priority state.",
+        "section": "colors"
+      },
+      {
+        "name": "The Metadata Margin Rule",
+        "body": "Align due dates and priority to shared columns across the task list. When width contracts, compress or stack that margin before sacrificing readable task content.",
+        "section": "layout"
+      },
+      {
+        "name": "The Quiet Surface Rule",
+        "body": "Keep the rail, working ground, task list, and editor flat. Use soft elevation for the synchronization disclosure and Undo feedback.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the same ink-blue, cool ground, white surfaces, and teal state roles on adjacent screens.",
+      "Do keep task titles, due dates, and priority aligned to a stable margin grid; let long text wrap.",
+      "Do preserve visible focus, readable labels, and a reachable sync disclosure at every supported width.",
+      "Do describe local saving and GitHub synchronization as separate states using plain, small helper copy.",
+      "Do use the full-width details view with Back at the established narrow-screen breakpoint."
+    ],
+    "donts": [
+      "Don't add physical-book ornament to the Margin notes grid.",
+      "Don't introduce a separate display face or promotional type treatment into the task workspace.",
+      "Don't use shadows to lift ordinary task rows or the editor.",
+      "Don't turn the plain-text tag line into decorative chips without an approved system change.",
+      "Don't encode selection, completion, errors, or sync outcomes through color alone."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Margin notes — task screen preview</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f3f6f8;color:#173e53}button,input,textarea,select{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #148078;outline-offset:3px}::selection{background:#bbe7df;color:#173e53}.app{display:grid;grid-template-columns:240px minmax(640px,1fr) 350px;width:1440px;height:900px}.rail{background:#173e53;color:#fff;padding:35px 20px;display:flex;flex-direction:column}.brand{font-size:25px;letter-spacing:-.03em;font-weight:700;padding:0 16px 32px}.nav-label{margin:8px 16px 12px;color:#bad0dc;font-size:15px}.rail nav{display:grid;gap:6px}.nav-item{display:flex;justify-content:space-between;border:0;border-radius:7px;background:transparent;color:#e4edf2;text-align:left;padding:12px 16px;font-size:16px}.nav-item.active{background:#296178;color:#fff;font-weight:650}.nav-item small{font-size:15px;color:#c6dce5}.rail-bottom{margin-top:auto;padding:20px 16px 2px;color:#c6dce5;font-size:15px}.workspace{padding:38px 40px 24px;display:flex;flex-direction:column;min-width:0}.page-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px}.page-head h1{font-size:28px;letter-spacing:-.03em;line-height:1.2;margin:0 0 9px}.muted{color:#526b78}.page-head p{margin:0}.button{border:1px solid #cbd8de;background:#fff;border-radius:6px;padding:8px 13px}.add-form{display:flex;gap:10px;margin-bottom:26px}.add-form input{min-width:0;flex:1;background:#fff;border:1px solid #bccdd5;border-radius:7px;padding:13px 16px;outline-offset:2px}input::placeholder,textarea::placeholder{color:#627986;opacity:1}.primary{border:1px solid #148078;background:#148078;color:#fff;border-radius:7px;padding:10px 18px;font-weight:600}.list-caption{display:grid;grid-template-columns:1fr 87px 86px;padding:0 18px 11px 50px;font-size:15px;color:#526b78}.task-list{background:#fff;border:1px solid #d7e0e5;border-radius:9px;overflow:hidden}.task{position:relative;display:grid;grid-template-columns:24px minmax(0,1fr) 87px 86px;column-gap:12px;align-items:start;padding:17px 17px;border-bottom:1px solid #e0e7eb;min-height:86px}.task:last-child{border-bottom:0}.task.selected{background:#e6f3f0;outline:1px solid #148078;outline-offset:-1px}.task input[type=checkbox]{appearance:auto;accent-color:#148078;width:18px;height:18px;margin:5px 0 0}.task-title{display:block;font-size:16px;line-height:1.45;font-weight:560;background:transparent;border:0;text-align:left;padding:0;max-width:100%}.task.selected .task-title{color:#12685f}.tag{display:block;margin-top:8px;font-size:15px;color:#607986}.task.selected .tag{color:#356d69}.due,.priority{padding-top:2px;font-size:15px;line-height:1.45}.due.today{font-weight:650;color:#173e53}.priority.high{font-weight:650;color:#9a442e}.priority.low{color:#607986}.completed-label{font-size:15px;color:#526b78;margin:28px 0 10px}.completed{min-height:72px;align-items:center;padding-top:20px;padding-bottom:20px}.completed .task-title{text-decoration:line-through;color:#6a7f8a;font-weight:400}.completed input[type=checkbox]{margin-top:0}.footnote{margin-top:auto;padding-top:16px;color:#627986;font-size:15px}.editor{background:#fff;border-left:1px solid #d5dfe5;padding:34px 26px;display:flex;flex-direction:column}.editor-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:27px;color:#526b78}.close{border:0;background:transparent;padding:5px 0 5px 12px;font-size:15px}.title-label{display:flex;align-items:flex-start;gap:10px}.title-label input{width:18px;height:18px;margin:7px 0 0;accent-color:#148078}.title-label textarea{font-size:22px;line-height:1.32;font-weight:650;letter-spacing:-.025em;resize:none;border:0;width:100%;height:97px;padding:0;background:#fff}.notes{margin-top:23px}.editor label.field-label{display:block;font-size:15px;font-weight:600;margin-bottom:9px}.notes textarea{width:100%;height:177px;resize:none;border:1px solid #d5dfe5;border-radius:6px;padding:12px;line-height:1.6}.properties{margin-top:29px;display:grid;gap:19px}.property{display:grid;grid-template-columns:75px minmax(0,1fr);align-items:center;gap:10px}.property label{color:#526b78}.property input,.property select{width:100%;background:#fff;border:1px solid #cbd8de;border-radius:5px;padding:8px 9px;min-height:39px}.delete{align-self:flex-start;margin-top:36px;border:0;border-top:1px solid #e0e7eb;padding:19px 0 0;width:100%;text-align:left;color:#a04433;background:transparent}.sync{margin-top:auto;border-top:1px solid #e0e7eb;padding-top:18px;font-size:15px;color:#526b78}.sync-line{display:flex;align-items:center;gap:7px;margin-bottom:10px}.sync-dot{width:7px;height:7px;border-radius:50%;background:#148078;flex:none}.details{background:transparent;border:0;color:#126b64;text-decoration:underline;text-underline-offset:3px;padding:0;font-size:15px}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="rail">
+<div class="brand">Tasks</div>
+<p class="nav-label">Lists</p>
+<nav aria-label="Task lists">
+<button class="nav-item active" aria-current="page">GitHub to-do <small>5</small></button>
+<button class="nav-item">Personal</button>
+<button class="nav-item">Home</button>
+</nav>
+<div class="rail-bottom">Your tasks, on this machine.</div>
+</aside>
+<main class="workspace">
+<header class="page-head"><div><h1>GitHub to-do</h1><p class="muted">5 active · 1 completed</p></div></header>
+<form class="add-form"><input type="text" aria-label="Add task" placeholder="Add task"><button type="button" class="primary">Add task</button></form>
+<div class="list-caption"><span>Task</span><span>Due</span><span>Priority</span></div>
+<section class="task-list" aria-label="Active tasks">
+<div class="task selected"><input type="checkbox" aria-label="Complete Review sync conflict behavior"><div><button type="button" class="task-title" aria-pressed="true">Review sync conflict behavior</button><span class="tag">sync</span></div><span class="due today">Today</span><span class="priority high">High</span></div>
+<div class="task"><input type="checkbox" aria-label="Complete Draft main task screen"><div><button type="button" class="task-title">Draft main task screen</button><span class="tag">design</span></div><span class="due">Tomorrow</span><span class="priority">Medium</span></div>
+<div class="task"><input type="checkbox" aria-label="Complete Check GitHub repository access"><div><button type="button" class="task-title">Check GitHub repository access</button><span class="tag">setup</span></div><span class="due">Tomorrow</span><span class="priority">Medium</span></div>
+<div class="task"><input type="checkbox" aria-label="Complete Compare task data formats"><div><button type="button" class="task-title">Compare task data formats</button><span class="tag">research</span></div><span class="due">19 Oct</span><span class="priority low">Low</span></div>
+<div class="task"><input type="checkbox" aria-label="Complete Write installation notes"><div><button type="button" class="task-title">Write installation notes</button><span class="tag">docs</span></div><span class="due muted">No date</span><span class="priority low">Low</span></div>
+</section>
+<p class="completed-label">Completed · 1</p>
+<section class="task-list" aria-label="Completed tasks"><div class="task completed"><input type="checkbox" checked aria-label="Mark Create project directory active"><button type="button" class="task-title">Create project directory</button></div></section>
+<footer class="footnote">Synthetic example tasks · Design preview</footer>
+</main>
+<aside class="editor" aria-label="Task details">
+<div class="editor-head"><span>Task details</span><button class="close" type="button">Close</button></div>
+<label class="title-label"><input type="checkbox" aria-label="Complete selected task"><textarea aria-label="Task title">Review sync conflict behavior</textarea></label>
+<div class="notes"><label class="field-label" for="notes">Notes</label><textarea id="notes">Try changing the same task on two machines.</textarea></div>
+<div class="properties">
+<div class="property"><label for="due">Due</label><input id="due" value="Today"></div>
+<div class="property"><label for="priority">Priority</label><select id="priority"><option>High</option><option>Medium</option><option>Low</option></select></div>
+<div class="property"><label for="tags">Tags</label><input id="tags" value="sync"></div>
+<div class="property"><label for="project">Project</label><select id="project"><option>GitHub to-do</option><option>Personal</option><option>Home</option></select></div>
+</div>
+<button class="delete" type="button">Delete task</button>
+<div class="sync"><div class="sync-line"><span class="sync-dot"></span><span>Saved here · Waiting to sync</span></div><button class="details" type="button">Sync details</button></div>
+</aside>
+</div>
+</body>
+</html>

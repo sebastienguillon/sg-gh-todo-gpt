@@ -1,0 +1,242 @@
+{
+  "title": "Main task screen",
+  "question": "Compare the screen directions. All use named lists, rich task details, quick-add, and automatic sync with details on demand. The sketches show synthetic example tasks.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Margin notes",
+      "kicker": "THE ROLL",
+      "lineage": "Technical-book margin grids",
+      "thesis": "A clear task list with a consistent metadata margin and an adjacent task editor.",
+      "palette": [
+        "#173e53",
+        "#f3f6f8",
+        "#ffffff",
+        "#148078"
+      ],
+      "materials": [
+        "ink-blue navigation rail",
+        "cool white work surface",
+        "aligned metadata columns"
+      ],
+      "viewport": "Lists at left, active tasks and quick-add in the middle, selected task details at right; due date and priority form a readable margin.",
+      "risk": "Aligned metadata needs careful collapsing on narrow screens.",
+      "html": ".impeccable/mocks/decision/assigned.html",
+      "comp": ".impeccable/mocks/decision/assigned.webp",
+      "raised": [
+        {
+          "from": "Midnight transit diagram",
+          "raise": "Show local-save and GitHub-sync checkpoints separately, with plain-language labels."
+        },
+        {
+          "from": "Character catalog",
+          "raise": "Keep each list\u2019s identity consistent in navigation and task details."
+        },
+        {
+          "from": "Orienteering map",
+          "raise": "Selection, priority, and sync states each have a distinct named meaning."
+        },
+        {
+          "from": "Factory catalog sleeve",
+          "raise": "Give each task property one authoritative editing location."
+        },
+        {
+          "from": "Type specimen",
+          "raise": "Preserve the same readable type scale and alignment for long titles and dense metadata."
+        }
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Wayfinder",
+      "kicker": "IMPECCABLE\u2019S PICK",
+      "lineage": "Everyday transit wayfinding",
+      "thesis": "Fast project switching, readable task rows, and a small two-stage sync indicator.",
+      "palette": [
+        "#075f58",
+        "#edf5f1",
+        "#ffffff",
+        "#174444"
+      ],
+      "materials": [
+        "deep green navigation",
+        "pale mineral work surface",
+        "humanist UI typography"
+      ],
+      "viewport": "Named lists anchor a green rail, a broad task list leads, and details open alongside; a two-checkpoint indicator separates saved here from GitHub.",
+      "risk": "An effective, familiar task-manager arrangement; less distinctive than the other directions.",
+      "html": ".impeccable/mocks/decision/model-pick.html",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-dark",
+      "label": "After hours",
+      "verdict": "competitive",
+      "lineage": "digital-design-canon-dark-first-developer-console",
+      "thesis": "A compact dark workspace keeps rich task details legible without a full-screen editor.",
+      "palette": [
+        "#0d1117",
+        "#151a22",
+        "#e6edf3",
+        "#79c0ff"
+      ],
+      "materials": [
+        "graphite planes",
+        "quiet panel seams",
+        "clear state colors"
+      ],
+      "viewport": "Lists at left, compact task rows centrally, and a persistent editor on the right; Git details appear only when requested.",
+      "case": "Competitive on product clarity at high information density; the darker working scene is a preference still to confirm.",
+      "risk": "Small low-contrast metadata would undermine readability; avoid a terminal costume.",
+      "html": ".impeccable/mocks/decision/challenger-dark.html",
+      "comp": ".impeccable/mocks/decision/challenger-dark.webp",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console.webp"
+    },
+    {
+      "id": "challenger-transit",
+      "label": "Midnight transit diagram",
+      "verdict": "declined",
+      "lineage": "wayfinding-cartography-signage-midnight-transit-diagram",
+      "thesis": "A dark task workspace with an explicit local-to-GitHub sync trail.",
+      "palette": [
+        "#0b1230",
+        "#ffffff",
+        "#1e5bff",
+        "#ffc20e"
+      ],
+      "materials": [
+        "standard web controls",
+        "task-first information hierarchy"
+      ],
+      "viewport": "Standard lists, task rows and a detail panel, with a compact sync trail.",
+      "case": "Neither a stronger personal-task fit nor clearer metadata than Margin notes; the multi-ink vocabulary adds decoding.",
+      "kept": "Separate local and remote persistence checkpoints.",
+      "risk": "A route diagram can make a small sync status too prominent.",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-midnight-transit-diagram.webp"
+    },
+    {
+      "id": "challenger-character",
+      "label": "Character catalog",
+      "verdict": "declined",
+      "lineage": "pop-culture-shelf-character-goods-catalog",
+      "thesis": "Consistent list identities make projects easy to recognize.",
+      "palette": [
+        "#f2eaf7",
+        "#e6f1ed",
+        "#cf6192",
+        "#303440"
+      ],
+      "materials": [
+        "standard web controls",
+        "task-first information hierarchy"
+      ],
+      "viewport": "Standard task rows and editor, with softly tinted project markers.",
+      "case": "No stronger audience identification or task clarity; portraits and ranked rosters have no job in this brief.",
+      "kept": "Consistent list identity across navigation and details.",
+      "risk": "Character decoration would compete with task content.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-character-goods-catalog-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-character-goods-catalog.webp"
+    },
+    {
+      "id": "challenger-map",
+      "label": "Orienteering map",
+      "verdict": "declined",
+      "lineage": "notation-diagram-systems-orienteering-map",
+      "thesis": "A crisp task list uses a strict visual vocabulary for selection and state.",
+      "palette": [
+        "#ffffff",
+        "#7b4e9b",
+        "#63764d",
+        "#a8754a"
+      ],
+      "materials": [
+        "standard web controls",
+        "task-first information hierarchy"
+      ],
+      "viewport": "Standard lists and task editor with a clear selected-task marker.",
+      "case": "The map vocabulary adds no personal-task identification or clarity once controls remain familiar.",
+      "kept": "Selection and semantic status must remain distinct.",
+      "risk": "A course or map metaphor would invent a workflow.",
+      "hero": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map.webp"
+    },
+    {
+      "id": "challenger-sleeve",
+      "label": "Factory catalog sleeve",
+      "verdict": "declined",
+      "lineage": "brand-identity-canon-saville-catalog-sleeve",
+      "thesis": "Each task and property has one clear place.",
+      "palette": [
+        "#121212",
+        "#ffffff",
+        "#d9b849",
+        "#447b9c"
+      ],
+      "materials": [
+        "standard web controls",
+        "task-first information hierarchy"
+      ],
+      "viewport": "Standard task list and details with deliberately reduced duplicate controls.",
+      "case": "Encoded titles and vast empty space reduce task clarity and audience fit; keeping ordinary labels removes their premise.",
+      "kept": "Each property has one authoritative editing location.",
+      "risk": "Coded labels would obscure the work.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve.webp"
+    },
+    {
+      "id": "challenger-specimen",
+      "label": "Type specimen",
+      "verdict": "declined",
+      "lineage": "variable-font-specimen",
+      "thesis": "A precise type system keeps the task content easy to scan.",
+      "palette": [
+        "#f7f7f5",
+        "#141414",
+        "#555cc9"
+      ],
+      "materials": [
+        "standard web controls",
+        "task-first information hierarchy"
+      ],
+      "viewport": "Ordinary task rows and a detail editor with rigorous type hierarchy.",
+      "case": "Display scale and variable-axis interaction serve neither this user\u2019s task nor its clarity.",
+      "kept": "Test long titles and dense metadata as carefully as short content.",
+      "risk": "Oversized typography would consume working space.",
+      "hero": "https://impeccable.style/worlds/cards/variable-font-specimen-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/variable-font-specimen.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "code",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Familiar task manager",
+    "thesis": "The conventional task-manager layout, executed with care.",
+    "palette": [
+      "#ffffff",
+      "#f3f4f6",
+      "#111827",
+      "#2563eb"
+    ],
+    "materials": [
+      "neutral sidebar",
+      "standard rows and controls",
+      "restrained blue selection"
+    ],
+    "viewport": "Lists at left, task list in the middle and details on the right, with compact sync status.",
+    "risk": "Intentionally close to familiar task apps.",
+    "html": ".impeccable/mocks/decision/canon.html",
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  },
+  "steer": true
+}

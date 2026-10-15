@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.gh-todo-data/
+.env
+.env.local
+.DS_Store
+*.log
+.impeccable/questions/
+.impeccable/reviews/
+.impeccable/captures/
+.impeccable/review/
